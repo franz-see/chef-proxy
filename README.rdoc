@@ -1,0 +1,15 @@
+= DESCRIPTION:
+
+Sets up Linux http_proxy by adding /etc/init.d/proxy.sh to have 
+export http_proxy=...
+export https_proxy=...
+
+= REQUIREMENTS:
+
+= ATTRIBUTES: 
+
+[:proxy][:profile_script]   - The path where proxy.sh will be stored. By default, it's /etc/profile.d/proxy.sh
+[:proxy][:http_proxy]  - The HTTP Proxy
+[:proxy][:https_proxy] - The HTTPs Proxy
+
+= USAGE:
